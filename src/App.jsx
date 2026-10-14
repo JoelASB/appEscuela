@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import AlumnoCard from './components/AlumnoCard/AlumnoCard';
+import Contador from "./components/Contador";
 function App() {
   return (
     <>
@@ -31,6 +32,8 @@ function App() {
             carrera="Administración Industrial"
             estado="Matriculado"
           />
+
+          <Contador/>
         </div>
       </div>
     </>
